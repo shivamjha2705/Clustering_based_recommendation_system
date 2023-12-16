@@ -4,6 +4,7 @@
 
  
 __Problem Statement:__
+
 The traditional collaborative filtering approach faces several challenges that hinder its effectiveness in recommendation systems:
 
 1. overreliance on user ratings
@@ -19,11 +20,13 @@ The traditional collaborative filtering approach faces several challenges that h
 To overcome these challenges, a clustering-based recommendation system is proposed.
 
 __Objective:__
+
 🔹Develop a clustering-based recommendation system to address the limitations of traditional collaborative filtering. The system aims to provide accurate and relevant movie recommendations by clustering movies based on their content features, such as overview, genres, keywords, cast, and crew.
 
 🔹The goal is to enhance recommendation accuracy, especially for new users, items with limited rating data, and in scenarios where there is a lack of a substantial user community.
 
 __Proposed Solution:__
+
 🔹Utilizing a dataset containing movie information, the recommendation system employs a clustering approach based on textual content features.
 
 🔹The content features are preprocessed, including cleaning, transformation, and vectorization. The Porter stemming technique is applied to handle variations in words.
